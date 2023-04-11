@@ -1,0 +1,48 @@
+<html>
+    <head> 
+
+    </head>
+
+    <body> 
+        <form action="/login" method = 'POST'>
+            Inserire nome: <br>
+            <input type = 'text' name = 'nome'><br><br>
+
+            Inserire cognome: <br>
+            <input type = 'text' name = 'cognome'><br><br>
+            
+            Inserire data di nascita: <br>
+            <input type = 'date' name = 'data_nascita'><br><br>
+
+            <select name = 'nazione'> 
+                <option value="Italia"> Italia</option>
+                <option value="Belgio"> Belgio</option>
+                <option value="Francia"> Francia</option>
+            </select>
+
+            Inserire username: <br>
+            <input type = 'text' name = 'username'><br><br>
+
+            Inserire password: <br>
+            <input type = 'password' name = 'password'><br><br>
+
+            Conferma password: <br>
+            <input type = 'password' name = 'confermapassword'><br><br>
+
+            Inserire email: <br>
+            <input type = 'email' name = 'email'><br><br>
+
+            Inserire lingue : <br>
+            <input type = 'checkbox' name = 'lingue' value="Italiano"> Italiano <br><br>
+            <input type = 'checkbox' name = 'lingue' value="Francese"> Francese <br><br>
+            <input type = 'checkbox' name = 'lingue' value="Tedesco"> Tedesco <br><br>
+
+            Acconsenso : <br>
+            <input type = 'radio' name = 'Acconsenso' value="Si"> Si <br><br>
+            <input type = 'radio' name = 'Acconsenso' value="No"> No <br><br>
+
+            <input type="submit" value='invia'>
+        </form>
+    </body>
+
+</html>
